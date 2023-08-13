@@ -13,6 +13,7 @@ public class Janela extends JFrame implements ActionListener {
         this.setSize(300, 500);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(3);
+        this.setTitle("Calculadora");
         painel = new JPanel();
         painel2 = new JPanel();
         resultados = new JTextField(30);
@@ -90,7 +91,12 @@ public class Janela extends JFrame implements ActionListener {
                 valorParaRetirar++;
 
             } else {
-                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));//usando o sustring pra retirar a primeira expressao e adicionar o valor 2 apenas oque for digitado depois da operação for escolhida
+                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));// usando o sustring pra
+                                                                                              // retirar a primeira
+                                                                                              // expressao e adicionar o
+                                                                                              // valor 2 apenas oque for
+                                                                                              // digitado depois da
+                                                                                              // operação for escolhida
             }
         } else if (e.getSource() == numeros[1]) {
             resultados.setText(resultados.getText() + "1");
@@ -98,17 +104,26 @@ public class Janela extends JFrame implements ActionListener {
                 valor1 = Double.parseDouble(resultados.getText());
                 valorParaRetirar++;
             } else {
-                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));//usando o sustring pra retirar a primeira expressao e adicionar o valor 2 apenas oque for digitado depois da operação for escolhida
+                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));// usando o sustring pra
+                                                                                              // retirar a primeira
+                                                                                              // expressao e adicionar o
+                                                                                              // valor 2 apenas oque for
+                                                                                              // digitado depois da
+                                                                                              // operação for escolhida
 
             }
-            System.out.println(valor1);
         } else if (e.getSource() == numeros[2]) {
             resultados.setText(resultados.getText() + "2");
             if (operacao == 6) {
                 valor1 = Double.parseDouble(resultados.getText());
                 valorParaRetirar++;
             } else {
-                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));//usando o sustring pra retirar a primeira expressao e adicionar o valor 2 apenas oque for digitado depois da operação for escolhida
+                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));// usando o sustring pra
+                                                                                              // retirar a primeira
+                                                                                              // expressao e adicionar o
+                                                                                              // valor 2 apenas oque for
+                                                                                              // digitado depois da
+                                                                                              // operação for escolhida
             }
         } else if (e.getSource() == numeros[3]) {
             resultados.setText(resultados.getText() + "3");
@@ -116,7 +131,12 @@ public class Janela extends JFrame implements ActionListener {
                 valor1 = Double.parseDouble(resultados.getText());
                 valorParaRetirar++;
             } else {
-                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));//usando o sustring pra retirar a primeira expressao e adicionar o valor 2 apenas oque for digitado depois da operação for escolhida
+                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));// usando o sustring pra
+                                                                                              // retirar a primeira
+                                                                                              // expressao e adicionar o
+                                                                                              // valor 2 apenas oque for
+                                                                                              // digitado depois da
+                                                                                              // operação for escolhida
 
             }
 
@@ -126,7 +146,12 @@ public class Janela extends JFrame implements ActionListener {
                 valor1 = Double.parseDouble(resultados.getText());
                 valorParaRetirar++;
             } else {
-                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));//usando o sustring pra retirar a primeira expressao e adicionar o valor 2 apenas oque for digitado depois da operação for escolhida
+                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));// usando o sustring pra
+                                                                                              // retirar a primeira
+                                                                                              // expressao e adicionar o
+                                                                                              // valor 2 apenas oque for
+                                                                                              // digitado depois da
+                                                                                              // operação for escolhida
             }
 
         } else if (e.getSource() == numeros[5]) {
@@ -135,7 +160,12 @@ public class Janela extends JFrame implements ActionListener {
                 valor1 = Double.parseDouble(resultados.getText());
                 valorParaRetirar++;
             } else {
-                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));//usando o sustring pra retirar a primeira expressao e adicionar o valor 2 apenas oque for digitado depois da operação for escolhida
+                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));// usando o sustring pra
+                                                                                              // retirar a primeira
+                                                                                              // expressao e adicionar o
+                                                                                              // valor 2 apenas oque for
+                                                                                              // digitado depois da
+                                                                                              // operação for escolhida
             }
 
         } else if (e.getSource() == numeros[6]) {
@@ -145,7 +175,12 @@ public class Janela extends JFrame implements ActionListener {
                 valor1 = Double.parseDouble(resultados.getText());
                 valorParaRetirar++;
             } else {
-                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));//usando o sustring pra retirar a primeira expressao e adicionar o valor 2 apenas oque for digitado depois da operação for escolhida
+                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));// usando o sustring pra
+                                                                                              // retirar a primeira
+                                                                                              // expressao e adicionar o
+                                                                                              // valor 2 apenas oque for
+                                                                                              // digitado depois da
+                                                                                              // operação for escolhida
             }
 
         } else if (e.getSource() == numeros[7]) {
@@ -154,7 +189,12 @@ public class Janela extends JFrame implements ActionListener {
                 valor1 = Double.parseDouble(resultados.getText());
                 valorParaRetirar++;
             } else {
-                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));//usando o sustring pra retirar a primeira expressao e adicionar o valor 2 apenas oque for digitado depois da operação for escolhida
+                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));// usando o sustring pra
+                                                                                              // retirar a primeira
+                                                                                              // expressao e adicionar o
+                                                                                              // valor 2 apenas oque for
+                                                                                              // digitado depois da
+                                                                                              // operação for escolhida
             }
 
         } else if (e.getSource() == numeros[8]) {
@@ -163,7 +203,12 @@ public class Janela extends JFrame implements ActionListener {
                 valor1 = Double.parseDouble(resultados.getText());
                 valorParaRetirar++;
             } else {
-                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));//usando o sustring pra retirar a primeira expressao e adicionar o valor 2 apenas oque for digitado depois da operação for escolhida
+                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));// usando o sustring pra
+                                                                                              // retirar a primeira
+                                                                                              // expressao e adicionar o
+                                                                                              // valor 2 apenas oque for
+                                                                                              // digitado depois da
+                                                                                              // operação for escolhida
             }
 
         } else if (e.getSource() == numeros[9]) {
@@ -172,7 +217,12 @@ public class Janela extends JFrame implements ActionListener {
                 valor1 = Double.parseDouble(resultados.getText());
                 valorParaRetirar++;
             } else {
-                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));//usando o sustring pra retirar a primeira expressao e adicionar o valor 2 apenas oque for digitado depois da operação for escolhida
+                valor2 = Double.parseDouble(resultados.getText().substring(valorParaRetirar));// usando o sustring pra
+                                                                                              // retirar a primeira
+                                                                                              // expressao e adicionar o
+                                                                                              // valor 2 apenas oque for
+                                                                                              // digitado depois da
+                                                                                              // operação for escolhida
             }
 
         } else if (e.getSource() == operacoes[0]) {
